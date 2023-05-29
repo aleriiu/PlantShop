@@ -1,2 +1,2 @@
 # PlantShop
-Plant Shop page from Figma layot
+Магазин цветов
