@@ -6,51 +6,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <section class="menu">
-            <p>Home</p>
-            <p>Shop</p>
-            <p>About Us</p>
-            <p>Contact</p>
-            <div class="cart">
-                <img src="" alt="">
+    <header class="bg">
+        <div class="menu">
+            <div class="menu__link">
+                <p class="menu__home">Home</p>
+                <p>Shop</p>
+                <p>About Us</p>
+                <p>Contact</p>
             </div>
-        </section>
-        <section class="menu__header">
-            <h1>Bring Serenity to Your Place
+            <div class="cart">
+                <img src="image/Vector.png" alt="">
+            </div>
+        </div>
+        <div class="menu__header">
+            <h1 class="menu__header_main">Bring Serenity to Your Place <br>
                 With Interior Plants</h1>
-            <p>find your dream plant for you home decoration with us, and we will make it happen.</p>
-            <input type="search" placeholder="Seach plant">
-        </section>
+            <p class="menu__header_description">find your dream plant for you home decoration <br> with us, and we will
+                make
+                it happen.</p>
+        </div>
+
+        <form class="header__seach">
+            <input class="header__seach_input" type="search" placeholder="Seach plant">
+        </form>
+
         <aside>
             <p>$65.00</p>
             <p>Dracena Fragnas</p>
         </aside>
     </header>
     <section class="service">
-        <div><img src="" alt="">
-            <h3>Free Shapping</h3>
-            <p>No charge for each delivery</p>
+        <div class="service__menu">
+            <img src="image/Group.png" alt="">
+            <div class="service__text1">
+                <h3 class="service__header">Free Shapping</h3>
+                <p class="service__description">No charge for each delivery</p>
+            </div>
         </div>
-        <div><img src="" alt="">
-            <h3>Quick Payment</h3>
-            <p>100% secure payment</p>
+
+        <div class="service__menu">
+            <img src="image/Vector2.png" alt="">
+            <div class="service__text2">
+                <h3 class="service__header">Quick Payment</h3>
+                <p class="service__description">100% secure payment</p>
+            </div>
         </div>
-        <div><img src="" alt="">
-            <h3>24/7 Support</h3>
-            <p>Quick support</p>
+
+        <div class="service__menu">
+            <img src="image/Vector3.png" alt="">
+            <div class="service__text3">
+                <h3 class="service__header">24/7 Support</h3>
+                <p class="service__description">Quick support</p>
+            </div>
         </div>
     </section>
     <section class="best__seller">
         <h2>Best Seller
             Product</h2>
         <p>See all colection</p>
-        <img src="" alt="">
-        <h3>Cammile</h3>
-        <h3>$65.00</h3>
+        <div class="bg__blue">
+            <div class="bg__white">
+                <img src="image/camille-plant-terracotta-pot-home-decor-object 1.png" alt="">
+                <h3>Cammile</h3>
+                <h3>$65.00</h3>
+            </div>
+        </div>
         <img src="" alt="">
         <h3>Cammile</h3>
         <h3>$65.00</h3>
@@ -59,54 +86,86 @@
         <h3>$65.00</h3>
     </section>
     <section class="referance">
-        <h2>Interior Plant Reference</h2>
-        <p>make your home so comfortable with refreshing plants</p>
+        <h2 class="referance__header">Interior Plant Reference</h2>
+        <p class="referance__header_description">make your home so comfortable with refreshing plants</p>
         <div class="referance__image">
-            <p>living room</p>
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+            <div class="referance__image_part1">
+                <div class="relative">
+                    <img class="image__relative"
+                        src="image/brown-sofa-wooden-table-living-room-interior-with-plant-concrete-wall.png" alt="">
+                    <p class="image__absolute">living room</p>
+                </div>
+                <img src="image/high-angle-desk-arrangement-with-plants.png" alt="">
+            </div>
+            <div class="referance__image_part2">
+                <img src="image/unsplash_MBsReSZ2WNM.png" alt="">
+            </div>
         </div>
+
     </section>
     <section class="care">
-        <h2>How to care for plants</h2>
-        <p>Take care of plants with all your heart</p>
-        <h3>Adjust Lighting</h3>
-        <p>When caring for indoor plants, make sure the room temperature is neither too cold nor too hot</p>
-        <h3>Don't water too often</h3>
-        <p>Watering ornamental plants indoors does not have to be done every day.</p>
-        <h3>Don't water too often</h3>
-        <p>Watering ornamental plants indoors does not have to be done every day.</p>
-        <h3>Fertilize regularly</h3>
-        <p>The nutrients most indoor houseplants need are nitrogen for balance and potassium for stem strength</p>
-        <img src="" alt="">
+        <div class="care__description">
+            <h2 class="care__header">How to care for plants</h2>
+            <p>Take care of plants with all your heart</p>
+            <h3 class="care_header_list">Adjust Lighting</h3>
+            <p>When caring for indoor plants, make sure the room temperature is neither too cold nor too hot</p>
+            <h3 class="care_header_list">Don't water too often</h3>
+            <p>Watering ornamental plants indoors does not have to be done every day.</p>
+            <h3 class="care_header_list">Don't water too often</h3>
+            <p>Watering ornamental plants indoors does not have to be done every day.</p>
+            <h3 class="care_header_list">Fertilize regularly</h3>
+            <p>The nutrients most indoor houseplants need are nitrogen for balance and potassium for stem strength</p>
+        </div>
+        <div class="care__image">
+            <img src="image/unsplash_sEApBUS4fIk.png" alt="">
+        </div>
     </section>
     <footer>
-        <h3>Newslatter</h3>
-        <input type="email" placeholder="Enter your email" submit="Subscribe">
-        <ul class="support">
-            <li>Support</li>
-            <li>About Us</li>
-            <li>Careers</li>
-            <li>Blog</li>
-        </ul>
-        <ul class="useful__link">
-            <li>Useful Link</li>
-            <li>Payment & Tax</li>
-            <li>Team of service</li>
-            <li>Privaci Policy</li>
-        </ul>
-        <ul class="our__menu">
-            <li>Our Menu</li>
-            <li>Best Product</li>
-            <li>Category</li>
-        </ul>
-        <ul class="address">
-            <li>Address</li>
-            <li>JL. Setiabudhi No. 193 Sukasari, Bandung
-                West Java, Indonesia</li>
-            <li>hallo@daunku.com</li>
-        </ul>
+        
+            <div class="footer__email">
+                <h3>Newslatter</h3>
+                <form>
+                    <input type="email" placeholder="Enter your email" submit="Subscribe">
+                </form>
+            </div>
+            <div class="footer__list-flex">
+                <div class="footer__list">
+                    <h5 class="list_color">Support</h5>
+                    <ul class="support">
+
+                        <li>About Us</li>
+                        <li>Careers</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+                <div class="footer__list">
+                    <h5 class="list_color">Useful Link</h5>
+                    <ul class="useful__link">
+
+                        <li>Payment & Tax</li>
+                        <li>Team of service</li>
+                        <li>Privaci Policy</li>
+                    </ul>
+                </div>
+                <div class="footer__list">
+                    <h5 class="list_color">Our Menu</h5>
+                    <ul class="our__menu">
+
+                        <li>Best Product</li>
+                        <li>Category</li>
+                    </ul>
+                </div>
+                <div class="footer__list">
+                    <h5 class="list_color">Address</h5>
+                    <ul class="address">
+
+                        <li>JL. Setiabudhi No. 193 Sukasari, Bandung
+                            West Java, Indonesia</li>
+                        <li>hallo@daunku.com</li>
+                    </ul>
+                </div>
+            </div>
+       
         <p>© 2023 davixq - All rights reserved.</p>
     </footer>
 </body>

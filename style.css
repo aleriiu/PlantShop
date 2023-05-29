@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* footer */
+
+.bg {
+    background-image: url(image/modern-living-room-interior-with-sofa-green-plants-lamp-table-dark-wall-background\ 1.svg);
+    background-color: #FFFFFF;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.menu {
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.menu__link {
+    display: flex;
+    gap: 68px;
+    justify-content: center;
+    padding-bottom: 91px;
+}
+
+.menu__home {
+    font-size: 24px;
+    font-weight: 600;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: radial-gradient(#2AF598, #009EFD);
+
+}
+
+.cart {}
+
+.menu__header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.menu__header_main {
+    font-size: 82px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.menu__header_description {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 42px;
+    color: #FFFFFF;
+}
+
+.header__seach {
+    border-radius: 50px;
+    background-color: #FFFFFF33;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 24px;
+    padding-right: 308px;
+    padding-bottom: 24px;
+    padding-left: 30px;
+}
+
+.header__seach_input {
+    background-color: #FFFFFF33;
+    color: #FFFFFF;
+    border: none;
+}
+
+input::placeholder {
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+/* section service */
+
+.service {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 103.5px;
+    margin-bottom: 152.5px;
+}
+
+.service__menu {
+    display: flex;
+    align-items: center;
+    gap: 34.5px;
+}
+
+.service__text1 {}
+
+.service__header {
+    font-size: 32px;
+    font-weight: 500;
+    color: #081323;
+}
+
+.service__description {
+    font-size: 20px;
+    font-weight: 500;
+    color: #828282;
+}
+
+/* section best seller */
+
+.best__seller {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bg__blue {
+    background-color: #C1D0E4;
+    max-width: 329px;
+    max-height: 510.78px;
+    border-radius: 50px;
+}
+
+.bg__white {
+    background-color: #FFFFFF;
+    max-width: 329px;
+    max-height: 260.73px;
+    border-radius: 50px;
+}
+
+/* section referance */
+
+.referance {
+    margin-top: 182px;
+}
+
+.referance__header {
+    font-size: 64px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.referance__header_description {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 27px;
+    text-align: center;
+    margin-bottom: 77px;
+}
+
+.referance__image {
+    display: flex;
+    gap: 32px;
+    margin-left: 126px;
+    margin-right: 118px;
+}
+
+.image__relative {
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.relative {
+    position: relative;
+}
+
+.image__absolute {
+    content: "";
+    position: absolute;
+    right: 193px;
+    top: 260px;
+    bottom: 214px;
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.referance__image_part1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.referance__image_part2 {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+/* section care */
+
+.care {
+    display: flex;
+    flex-direction: row;
+}
+
+.care__header {
+    font-size: 64px;
+    font-weight: 500;
+    margin-top: 182px;
+    margin-bottom: 28px;
+    margin-left: 125px;
+}
+
+.care_header_list {
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 8px;
+    color: #000000;
+}
+
+.care__image {
+    margin-top: 283px;
+    margin-right: 120px;
+}
+
+/* footer */
+
+footer {
+    background-image: linear-gradient(to bottom right, #566270, #283444);
+    padding-top: 120px;
+}
+
+.footer__flex {
+    display: flex;
+
+}
+
+.footer__email {}
+
+
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.list_color {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    gap: 87.67px;
+    padding-bottom: 33.65px;
+}
+
+
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: none;
+}
